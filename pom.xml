@@ -20,7 +20,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<cdh.version>0.8.0-cdh4a1-SNAPSHOT</cdh.version>
+	<cdh.version>0.7.1-cdh3u3</cdh.version>
     </properties>
 
 
@@ -88,19 +88,19 @@
         <dependency>
             <groupId>org.apache.hadoop.hive</groupId>
             <artifactId>hive-serde</artifactId>
-            <version>0.8.0-cdh4a1-SNAPSHOT</version>
+            <version>0.7.1-cdh3u3</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop.hive</groupId>
             <artifactId>hive-exec</artifactId>
-            <version>0.8.0-cdh4a1-SNAPSHOT</version>
+            <version>0.7.1-cdh3u3</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-core</artifactId>
-            <version>0.20.2</version>
+            <version>0.20.2-cdh3u3</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
